@@ -1,3 +1,5 @@
+<?php include ('info-site.php'); ?>
+
 <!doctype html>
 <html class="no-js" lang="">
     <head>
@@ -21,7 +23,7 @@
       <header>
         <nav class="nav-extended card-panel teal light-blue darken-1">
           <div class="nav-wrapper">
-            <img src="img/logo.png" class="brand-logo responsive-img git st" alt="logo du site">
+            <img src="<?php echo $infoSite['logo']?>" class="brand-logo responsive-img git st" alt="logo du site">
             <ul class="right hide-on-med-and-down">
               <li><a><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
               <li><a><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
@@ -30,7 +32,7 @@
             </ul>
           </div>
           <div class="nav-content center-align">
-            <h1 class="nav-title">Achat de bazar <br>en ligne</h1>
+            <h1 class="nav-title"><?php echo $infoSite["titre"]?></h1>
             <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
               <i class="material-icons">add</i>
             </a>
