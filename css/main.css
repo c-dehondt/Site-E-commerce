@@ -1,0 +1,11 @@
+#navigation{
+  position: sticky;
+  top:60px;
+  z-index: 1;
+}
+
+
+
+.logo{
+  width: 200px;
+}
